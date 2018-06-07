@@ -1,5 +1,5 @@
 from sys import argv
-from os.path imort exists
+from os.path import exists
 script, from_file, to_file=argv
 path(f"Copying from {from_file} to {to_file}")
 in_file=open(from_file)
