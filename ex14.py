@@ -1,8 +1,8 @@
 from sys import argv
 script,user_name=argv
 prompt='>'
-print (f"Hi %s,I'm the %s script."%(user_name,script)
-print(f"I'd like to ask you a few question.")
+print (f"Hi %s,I'm the %s script."%(user_name,script))
+print("I'd like to ask you a few question.")
 print(f"Do you like me %s?"%user_name)
 likes=input(prompt)
 print(f"Where do you live %s?"%user_name)
