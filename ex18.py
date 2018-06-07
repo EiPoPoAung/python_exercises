@@ -5,7 +5,7 @@ def dprint_two(*args):
         print(f"arg1:{arg1}, arg2: {arg2}")
         def prin_one(arg1):
             print(f"arg1: {arg1}")
-            def print(f"arg1: {arg1}")
+    
             def print_none():
                 print("I got nothin'.")
                 print_two("Zed", "Shaw")
