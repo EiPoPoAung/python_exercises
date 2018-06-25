@@ -8,10 +8,12 @@ PHRAES={
          "Make a class named %%% that is-a %%%.",
         "class %%%(object):\n\tdef __init__(self,***)":
          "class %%% has-a __init__ that takes self and *** params.",
-        "class %%%(object):\n\tdef ***(်််self,@@@)":
+        "class %%%(object):\n\tdef ***(််self,@@@)":
          "class %%% has-a function *** that takes self and @@@ param.",
          "***=%%%()":
          "Set *** to an instance of class %%%.",
+         "*** =%%%()":
+          "Set *** to an instance of class %%%.",
         "***.***(@@@)":
          "From *** get the *** function, call it with params self,@@@.",
         "***.***='***'":
@@ -24,9 +26,9 @@ else:
 for word in urlopen(WORD_URL).readlines():
     WORDS.append(str(word.strip(),encoding="utf-8"))
 def convert(snippet,pharse):
-    class_names=[w.capitalize()for w in random.sample(WORDS,snippet.count("%%%"))]
+    class_names=[w.capitalize()for w in random.sample(WORDS,snippetcount("%%%"))]
     other_names=random.sample(WORDS,snippet.count("***"))
-    results=[]
+    results[]
     param_names=[]
     for i in range(0,snippet.cout("@@@")):
         param_count=random.randint(1,3)
@@ -39,7 +41,7 @@ def convert(snippet,pharse):
             result=result.replace("***",word,1)
         for word in param_names:
             result=result.replace("@@@",word,1)
-        results.append(result)
+        result.append(result)
     return results
 try:
     while True:
