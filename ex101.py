@@ -1,9 +1,9 @@
-tabby_dog="\t I'm tabbed in."
-persian_dog="I'm split\non a line."
-backslash_dog="I'm \\ a\\ dog."
-fat_dog="""
+tabby_rad="\t I'm tabbed in."
+persian_rad="I'm split\non a line."
+backslash_rad="I'm \\ a\\ rad."
+fat_rad="""
 I'll do a list:
-\t*Dog food
+\t*rad food
 \t*Fishie
 \t*Catnip\n\t*Grass
 """
