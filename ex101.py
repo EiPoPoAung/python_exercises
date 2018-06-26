@@ -7,7 +7,7 @@ I'll do a list:
 \t*Fishie
 \t*Catnip\n\t*Grass
 """
-print(tabby_dog)
-print(persian_dog)
-print(backslash_dog)
-print(fat_dog)
+print(tabby_rad)
+print(persian_rad)
+print(backslash_rad)
+print(fat_rad)
